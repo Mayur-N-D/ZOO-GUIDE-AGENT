@@ -71,13 +71,13 @@ Greeter → Researcher → Formatter → Final Response
 ---
 
 ## 🧠 How It Works
-- User enters a query
-- Greeter stores the prompt
-- Researcher:
--- Decides which tools to use
--- Fetches relevant data
-- Formatter:
---Converts data into human-friendly response
+1. User enters a query
+2. Greeter stores the prompt
+3. Researcher:
+- Decides which tools to use
+- Fetches relevant data
+4. Formatter:
+- Converts data into human-friendly response
 
 ---
 
