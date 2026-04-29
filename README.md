@@ -34,15 +34,15 @@ This project uses a multi-agent pipeline:
 - Analyzes user prompt
 - Decides which tools to use
 - Fetches:
-Zoo-specific data (internal)
-General knowledge via Wikipedia
+-- Zoo-specific data (internal)
+--General knowledge via Wikipedia
 
 3. ✨ Response Formatter Agent
 - Converts raw research into:
-- Friendly
-- Structured
-- Engaging responses
-- 
+-- Friendly
+-- Structured
+-- Engaging responses
+
 4. 🔄 Sequential Workflow
 
 All agents are connected using a SequentialAgent pipeline:
@@ -74,10 +74,10 @@ Greeter → Researcher → Formatter → Final Response
 - User enters a query
 - Greeter stores the prompt
 - Researcher:
-Decides which tools to use
-Fetches relevant data
+-- Decides which tools to use
+-- Fetches relevant data
 - Formatter:
-Converts data into human-friendly response
+--Converts data into human-friendly response
 
 ---
 
