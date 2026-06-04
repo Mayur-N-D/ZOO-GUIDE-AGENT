@@ -62,11 +62,11 @@ Greeter → Researcher → Formatter → Final Response
 
 ## 📂 Project Structure
 
-- ZOO-GUIDE-AGENT/
-- │── agent.py            # Main agent logic
-- │── requirements.txt    # Dependencies
-- │── .env                # Environment variables
-- │── __init__.py
+    ZOO-GUIDE-AGENT/
+    │── agent.py            # Main agent logic
+    │── requirements.txt    # Dependencies
+    │── .env                # Environment variables
+    │── __init__.py
 
 ---
 
